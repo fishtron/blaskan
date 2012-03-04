@@ -1646,6 +1646,15 @@ article .content { *zoom: 1; }
   color: #888;
 }
 
+.widget_categories .current-cat > a {
+	color: #000;
+	font-weight: normal;
+}
+
+.widget_categories .children {
+	padding: 5px 0 0 10px;
+}
+
 /**
  * Calendar widget
  */
@@ -1669,6 +1678,23 @@ article .content { *zoom: 1; }
 	display: inline-block;
 	font-size: 12px;
 	font-style: normal;
+}
+
+/**
+ * Menus in widgets
+ */
+
+.widget .menu li {
+	display: block;
+}
+
+.widget .menu .current-menu-item > a {
+	color: #000;
+	font-weight: normal;
+}
+
+.widget .menu .sub-menu {
+	padding: 5px 0 0 10px;
 }
 
 /**
